@@ -4,7 +4,7 @@
 
 Personal Expense Tracker is a simple web application developed using HTML, CSS, and JavaScript. It helps users manage their daily expenses by adding, viewing, deleting, and filtering expense records.
 
-The application displays the total expenses in Indian Rupees (₹) and uses browser Local Storage to save expense records.
+The application displays total expenses in Indian Rupees (₹) and uses browser Local Storage to save expense records.
 
 ## Features
 
@@ -18,12 +18,12 @@ The application displays the total expenses in Indian Rupees (₹) and uses brow
 
 ## Technologies Used
 
-- HTML – Structure of the application.
-- CSS – Styling and layout.
-- JavaScript – Application functionality.
-- Git – Version control.
-- GitHub – Repository hosting and team collaboration.
-- Local Storage – Saving expense records in the browser.
+- HTML
+- CSS
+- JavaScript
+- Git
+- GitHub
+- Browser Local Storage
 
 ## Project Structure
 
@@ -72,16 +72,28 @@ The following GitHub features are used:
 - Pull requests for proposing changes.
 - Merging branches into the main branch.
 
+### Issues Created
+
+1. Add Expense Date
+2. Save Expenses Using Local Storage
+3. Filter Expenses by Category
+
 ### Feature Branches
 
-- `feature-expense-date`
-- `feature-save-expenses`
-- `feature-category-filter`
+1. `feature-expense-date`
+2. `feature-save-expenses`
+3. `feature-category-filter`
 
-## Project Status
+### Feature Development
 
-The core features of the Personal Expense Tracker have been implemented and tested locally. GitHub is used for project management and collaboration.
+#### 1. Expense Date
+- Added a date field to record when an expense occurred.
+- Expense history displays the corresponding date.
 
-## Repository
+#### 2. Save Expenses Using Local Storage
+- Expense records are saved in browser Local Storage.
+- Saved expenses remain available after refreshing the browser.
 
-[Personal Expense Tracker – GitHub](https://github.com/Narendra-12344/Personal-Expense-Tracker)
+#### 3. Filter Expenses by Category
+- Users can filter expenses by category.
+- Categories include

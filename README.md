@@ -2,98 +2,118 @@
 
 ## Project Description
 
-Personal Expense Tracker is a simple web application developed using HTML, CSS, and JavaScript. It helps users manage their daily expenses by adding, viewing, deleting, and filtering expense records.
+Personal Expense Tracker is a simple web application developed using HTML, CSS, and JavaScript. It helps users record, manage, and track their daily expenses.
 
-The application displays total expenses in Indian Rupees (₹) and uses browser Local Storage to save expense records.
+Users can add expenses, view total spending, delete records, save expenses in Local Storage, and filter expenses based on categories.
 
 ## Features
 
-- Add expenses with name, amount, date, and category.
-- Display total expenses in Indian Rupees (₹).
-- Save expenses using browser Local Storage.
-- Delete existing expenses.
-- Filter expense history by category.
-- Display expense history with dates.
-- Retain expense records after refreshing the browser.
+1. **Add Expenses**
+   - Add expense name and amount.
+   - Select an expense category.
+   - Enter the expense date.
+
+2. **Calculate Total Expenses**
+   - Automatically calculate the total amount spent.
+   - Display the total expenses.
+
+3. **Save Expenses Using Local Storage**
+   - Store expense records in the browser's Local Storage.
+   - Keep saved expenses even after refreshing or reopening the browser.
+
+4. **Delete Expenses**
+   - Remove unwanted expense records.
+
+5. **Filter Expenses by Category**
+   - Filter expenses by selecting a specific category.
+   - View expenses belonging to a selected category.
+   - Easily identify spending in categories such as Food, Travel, Shopping, and Other.
+
+6. **Display Expense Dates**
+   - Show the date associated with each expense.
 
 ## Technologies Used
 
-- HTML
-- CSS
-- JavaScript
-- Git
-- GitHub
-- Browser Local Storage
+- HTML – Structure of the application.
+- CSS – Styling and layout.
+- JavaScript – Application functionality.
+- Local Storage – Saving expense records in the browser.
+- Git – Version control.
+- GitHub – Repository hosting and team collaboration.
 
 ## Project Structure
 
 ```text
 Personal-Expense-Tracker/
 │
-├── README.md
 ├── index.html
 ├── style.css
-└── script.js
+├── script.js
+└── README.md
 ```
-
-## Team Members and Credits
-
-| Role | Name | GitHub Username |
-|---|---|---|
-| Team Lead | VALLURU SHAKEER | VALLURU-SHAKEER |
-| Developer 1 | KATIKA NARENDRA | Narendra-12344 |
-| Developer 2 | THOTTETI MANJUNATH | manjunaththotteti |
-
-### Team Responsibilities
-
-- **Team Lead:** Project development, coordination, and GitHub repository management.
-- **Developer 1:** Feature planning, requirement analysis, and project improvement suggestions.
-- **Developer 2:** Application testing, identifying possible errors, and user interface improvement suggestions.
 
 ## How to Run the Project
 
 1. Download or clone the repository.
-2. Open the project folder in Visual Studio Code.
-3. Open `index.html` in a web browser or use Live Server.
-4. Enter an expense name, amount, date, and category.
-5. Click the Add Expense button.
-6. Use the category filter to view specific expenses.
+2. Open the project folder.
+3. Open `index.html` in a web browser.
+4. Start adding and managing expenses.
+
+## Team Members
+
+| Name | Role | GitHub Username |
+|---|---|---|
+| VALLURU SHAKEER | Team Lead | VALLURU-SHAKEER |
+| KATIKA NARENDRA | Developer 1 | Narendra-12344 |
+| THOTTETI MANJUNATH | Developer 2 | manjunaththotteti |
+
+## GitHub Repository
+
+Repository: https://github.com/Narendra-12344/Personal-Expense-Tracker
 
 ## GitHub Collaboration
 
-GitHub is used to manage the project and demonstrate team collaboration.
+The project uses Git and GitHub for team collaboration.
 
-The following GitHub features are used:
+The following activities are performed:
 
-- Repository creation and management.
-- Issues for tracking tasks.
-- Feature branches for separate development tasks.
-- Commits for saving changes.
-- Pull requests for proposing changes.
-- Merging branches into the main branch.
+- Created a GitHub repository.
+- Initialized Git in the project folder.
+- Added and committed project files.
+- Connected the local repository to GitHub.
+- Pushed the main branch to GitHub.
+- Created GitHub Issues for feature tasks.
+- Created separate feature branches.
+- Committed and pushed changes.
+- Created Pull Requests.
+- Reviewed and merged Pull Requests into the main branch.
 
-### Issues Created
+## Issues Created
 
 1. Add Expense Date
 2. Save Expenses Using Local Storage
 3. Filter Expenses by Category
 
-### Feature Branches
+## Feature Branches
 
 1. `feature-expense-date`
 2. `feature-save-expenses`
 3. `feature-category-filter`
 
-### Feature Development
+## Pull Request History
 
-#### 1. Expense Date
-- Added a date field to record when an expense occurred.
-- Expense history displays the corresponding date.
+| Pull Request | Title | Status |
+|---|---|---|
+| #4 | Add Expense Date Feature | Merged |
+| #5 | Document Local Storage Feature | Merged |
+| #3 | Category Filter Feature | In Progress |
 
-#### 2. Save Expenses Using Local Storage
-- Expense records are saved in browser Local Storage.
-- Saved expenses remain available after refreshing the browser.
+## Project Status
 
-#### 3. Filter Expenses by Category
-- Users can filter expenses by category.
-- Categories include
+The Personal Expense Tracker application is developed with expense management, date selection, Local Storage, deletion, and category filtering features.
+
+GitHub collaboration is demonstrated through issues, feature branches, commits, pull requests, and merges.
+
+## Conclusion
+
+The Personal Expense Tracker provides a simple way to manage daily expenses. This project also demonstrates front-end web development and collaborative software development using Git and GitHub.

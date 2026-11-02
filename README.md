@@ -4,33 +4,33 @@
 
 Personal Expense Tracker is a simple web application developed using HTML, CSS, and JavaScript. It helps users record, manage, and track their daily expenses.
 
-Users can add expenses, view total spending, delete records, save expenses in Local Storage, and filter expenses based on categories.
+Users can add expenses, view total spending, delete records, save expenses using Local Storage, and filter expenses based on categories.
 
 ## Features
 
-1. **Add Expenses**
-   - Add expense name and amount.
-   - Select an expense category.
-   - Enter the expense date.
+### 1. Add Expenses
+- Add expense name and amount.
+- Select an expense category.
+- Enter the expense date.
 
-2. **Calculate Total Expenses**
-   - Automatically calculate the total amount spent.
-   - Display the total expenses.
+### 2. Calculate Total Expenses
+- Automatically calculate the total amount spent.
+- Display the total expenses.
 
-3. **Save Expenses Using Local Storage**
-   - Store expense records in the browser's Local Storage.
-   - Keep saved expenses even after refreshing or reopening the browser.
+### 3. Save Expenses Using Local Storage
+- Store expense records in the browser's Local Storage.
+- Keep saved expenses even after refreshing or reopening the browser.
 
-4. **Delete Expenses**
-   - Remove unwanted expense records.
+### 4. Delete Expenses
+- Remove unwanted expense records.
 
-5. **Filter Expenses by Category**
-   - Filter expenses by selecting a specific category.
-   - View expenses belonging to a selected category.
-   - Easily identify spending in categories such as Food, Travel, Shopping, and Other.
+### 5. Filter Expenses by Category
+- Filter expenses by selecting a specific category.
+- View expenses belonging to a selected category.
+- Identify spending in categories such as Food, Travel, Shopping, and Other.
 
-6. **Display Expense Dates**
-   - Show the date associated with each expense.
+### 6. Display Expense Dates
+- Show the date associated with each expense.
 
 ## Technologies Used
 
@@ -55,7 +55,7 @@ Personal-Expense-Tracker/
 ## How to Run the Project
 
 1. Download or clone the repository.
-2. Open the project folder.
+2. Open the project folder in Visual Studio Code.
 3. Open `index.html` in a web browser.
 4. Start adding and managing expenses.
 
@@ -75,7 +75,7 @@ Repository: https://github.com/Narendra-12344/Personal-Expense-Tracker
 
 The project uses Git and GitHub for team collaboration.
 
-The following activities are performed:
+The following activities were performed:
 
 - Created a GitHub repository.
 - Initialized Git in the project folder.
@@ -86,7 +86,7 @@ The following activities are performed:
 - Created separate feature branches.
 - Committed and pushed changes.
 - Created Pull Requests.
-- Reviewed and merged Pull Requests into the main branch.
+- Merged Pull Requests into the main branch.
 
 ## Issues Created
 
@@ -106,13 +106,15 @@ The following activities are performed:
 |---|---|---|
 | #4 | Add Expense Date Feature | Merged |
 | #5 | Document Local Storage Feature | Merged |
-| #3 | Category Filter Feature | In Progress |
+| #6 | Document Category Filter Feature | Merged |
+
+All three Pull Requests were successfully merged into the `main` branch.
 
 ## Project Status
 
-The Personal Expense Tracker application is developed with expense management, date selection, Local Storage, deletion, and category filtering features.
+The Personal Expense Tracker project includes expense management, date selection, Local Storage, deletion, and category filtering features.
 
-GitHub collaboration is demonstrated through issues, feature branches, commits, pull requests, and merges.
+GitHub collaboration was demonstrated through issues, feature branches, commits, pull requests, and merges.
 
 ## Conclusion
 
